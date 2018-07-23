@@ -1,382 +1,186 @@
 
-.. _h6e4d39105a64461f4f3377d353919:
+.. _h42492050f7b71b11565635022643f:
 
-Accesso al sistema
-******************
+Funzionalità da conoscere
+*************************
 
-Per accedere al sistema è necessario spostarsi in fondo alla pagina per trovare, vicino alle indicazioni sul Copyright, il link “Accedi con il tuo account”
+.. _h2372393a171c4876da3830657d173:
+
+Caricamento di dati strutturati via CSV
+=======================================
+
+C’è la possibilità di caricare i dati pregressi strutturati in fogli di calcolo attraverso un importazione massiva dei contenuti, in modo da risparmiare il tempo del caricamento manuale. 
+
+Sarà possibile approfondire questo argomento in sede di formazione.
+
+.. _h6c44451e1e364236ee2244502c4f57:
+
+Come analizzare la tipologia di contenuto pubblicato
+====================================================
+
+Eseguendo l’accesso (login) al sito con le proprie credenziali, è possibile analizzare la tipologia di contenuto pubblicato, cliccando sulla “i” alla destra della website toolbar.
+
+Si aprirà una finestra in cui potete trovare alcune preziose “Informazioni per l’editor”.
 
 \ |IMG1|\ 
 
-Una volta effettuato l’accesso, si vedono i link “Profilo utente” (dove è possibile modificare i propri dati e la propria password), agli strumenti a disposizione, e per uscire dal sistema.
+.. _h66bd222716207a117f16b3225770:
 
-\ |IMG2|\ 
+Impostazioni visualizzazione oggetti
+====================================
 
-.. _h1f184e272f67487d30753a697b3c5351:
+Eseguendo l’accesso (login) al sito con le proprie credenziali, cliccare sulla “i” alla destra della website toolbar (1).
 
-Gestione dei contenuti
-**********************
+All’interno del box “Informazioni per l’editor”, cliccare su “Impostazioni visualizzazione oggetti ‘nome_classe_da_modificare’” (2).
 
-Una volta effettuato l’accesso al sistema, si vedrà comparire in alto, la barra degli strumenti, che consente di operare sui contenuti del sito.
+.. _h791137197930656d4a307c1b41594e2e:
 
+\ |IMG2|\ ==========
 
-.. admonition:: L’albero dei contenuti
+Controllare che la classe selezionata sia effettivamente quella che di cui si vuole modificare la visualizzazione.
 
-    Nel sistema Open City, i contenuti sono organizzati in una struttura ad albero. Ogni contenuto ha una sua collocazione nell’albero dei contenuti. Questo va tenuto in considerazione quando viene creato un nuovo contenuto, perché esso va creato nella posizione corretta all’interno di un albero. Fanno eccezioni le immagini, che idealmente vengono create in un unico contenitore (Media/Images) per poter poi essere riutilizzate all’interno dei contenuti del sito.
+Per esempio, se si vuole modificare la visualizzazione della classe “Bando di concorso”, controllare che la classe selezionato nel riquadro a destra in alto sia quella corretta (1). 
 
-.. _h7c2b7466704f1f106c504a672c3d3750:
+Se non è corretta, cercare la classe che si vuole modificare all’interno del menù a tendina e cliccare su “Seleziona” (2).
 
-La barra degli strumenti
-========================
+Controllare che sia abilitata la “Visualizzazione degli attributi in forma tabellare (template full)”. Se non è abilitata, cliccare sul checkbox (3).
 
-La barra degli strumenti consente di disporre delle funzionalità di \ |STYLE0|\  direttamente sulle pagine del sito (senza bisogno di accedere all’interfaccia di amministrazione). In questo modo è possibile navigare il sito come un normale visitatore, e operare modifiche a contenuti esistenti, spostamento di contenuti, ordinamenti, creazione di nuovi contenuti.
+Successivamente, si può procedere alla selezione dei checkbox relativi agli attributi che si vogliono visualizzare.
 
-.. _h80796f6531d141926653d426622443a:
+\ |STYLE0|\ : mostra il contenuto inserito dall’editor. Per esempio, dell’attributo “Anno”, mostrerà il contenuto (es.: “2018”).
 
-\ |IMG3|\ ----------
+\ |STYLE1|\ : mostra l’etichetta dell’attributo. Per esempio, dell’attributo “Anno”, mostrerà l’etichetta “Anno”.
 
-\ |STYLE1|\ 
+\ |STYLE2|\  mostra l’etichetta di un attributo anche se non popolato. Per esempio dell’attributo “Anno”, che non contiene alcun contenuto, verrà mostrata comunque l’etichetta “Anno”.
 
+\ |STYLE3|\ 
 
-..  Important:: 
+\ |STYLE4|\  mostra il link e rende cliccabile l’oggetto correlato (es.: File da scaricare, Riferimento ad un altro oggetto presente nel sito).
 
-    Le azioni che è possibile svolgere attraverso l’uso della barra degli strumenti \ |STYLE2|\  in quel momento: ad esempio se si sta visualizzando un contenuto di tipo “Avviso” e si clicca sull’icona con la matita (modifica), verrà modificato esattamente quel contenuto, la stessa cosa vale per la creazione di nuovi contenuti, la cancellazione, e così via.
+\ |STYLE5|\ 
 
-Le funzionalità principali che è possibile operare dalla barra degli strumenti sono:
+Infine, cliccare sul pulsante “Salva impostazioni” (5), per salvare le scelte effettuate.
 
-* \ |STYLE3|\ 
+Le impostazioni selezionate valgono per tutti gli oggetti appartenenti a quella categoria (per esempio per tutti gli oggetti di tipo “Bando di concorso”).
 
-* \ |STYLE4|\ 
+\ |IMG3|\ 
 
-* \ |STYLE5|\ : come visto in precedenza, ogni contenuto del sito ha una collocazione in una struttura ad albero. Questa funzionalità consente di rendere uno stesso contenuto visibile in più sezioni del sito;
-
-* \ |STYLE6|\  prima di cancellare un contenuto, il sistema chiede conferma. Inoltre, è possibile fare in modo che il contenuto venga messo nel cestino, in modo che sia possibile recuperarlo eventualmente;
-
-* \ |STYLE7|\  da una collocazione a un’altra all’interno dell’albero dei contenuti;
-
-* \ |STYLE8|\  posizionandosi su un contenuto, è possibile definire la modalità di ordinamento dei contenuti “figli” (per nome, data di creazione, priorità, …);
-
-* \ |STYLE9|\  è possibile caricare dei files dal proprio pc (immagini, documenti pdf), che vengono convertiti in contenuti (seguendo una mappatura file/contenuto definita a livello di configurazione);
-
-* \ |STYLE10|\  nel caso in cui il menù non mostra le modifiche apportate, è possibile forzare un refresh della visualizzazione del menù stesso;
-
-* \ |STYLE11|\  per copiare un contenuto;
-
-* \ |STYLE12|\  per accedere all’interfaccia di amministrazione e guardare “dietro le quinte”;
-
-* \ |STYLE13|\  consente di tradurre un contenuto;
-
-* \ |STYLE14|\  apre (o chiude) il box con informazioni sul contenuto che si sta visualizzando (data di creazione,  autore, tipologia di contenuto, …)
-
-.. _h20112a6435232c2ee1a474074635b31:
-
-Modifica di un contenuto esistente
-==================================
-
-Per modificare un contenuto esistente, è sufficiente \ |STYLE15|\  attraverso i menù e i link del sito, esattamente come farebbe un visitatore. Una volta raggiunto il contenuto da modificare, \ |STYLE16|\  e si passa alla modalità di modifica del contenuto: viene mostrata l’\ |STYLE17|\ , \ |STYLE18|\  di quel particolare contenuto.
-
-Ad esempio, modificando un oggetto di tipo “Avviso”, l’interfaccia sarà basata sugli attributi della classe “Avviso”.
-
-\ |IMG4|\ 
-
-\ |STYLE19|\  \ |STYLE20|\ 
-
-.. _h2c316b717f547316a522c1143139e:
-
-Creazione di un nuovo contenuto
-===============================
-
-La creazione di un contenuto avviene nel seguente modo:
-
-Si naviga il sito fino a raggiungere il contenitore all’interno del quale si vuole creare il contenuto, ad esempio un calendario:
-
-\ |IMG5|\ 
-
-Dalla tendina nella barra degli strumenti (1), è possibile filtrare le tipologie di contentuo (2) e  selezionare il tipo di contenuto da creare (3). Infine si preme sul pulsante Crea qui (4):
-
-\ |IMG6|\ 
-
-\ |STYLE21|\  \ |STYLE22|\ \ |STYLE23|\ 
-
-Una volta effettuate queste operazioni, il sistema presenta una interfaccia identica a quella di modifica di un contenuto, con la differenza che i campi (attributi) saranno tutti vuoti.
+.. _h2c1d74277104e41780968148427e:
 
 
-.. admonition:: Attributi obbligatori
 
-    Nelle interfacce di creazione e modifica dei contenuti, alcuni degli attributi sono marcati con un asterisco. Questo significa che è obbligatorio compilare quegli attributi.
 
-.. _h2939163554334774451b95757d5c2a:
+.. _h134c252677a7254751661226b3d38a:
 
-Il menù principale
+Struttura del sito
 ******************
 
-Il menù principale viene gestito modificando la home page del sito. Bisogna quindi navigare verso la Home page, e poi premere sull’icona “Modifica” della barra degli strumenti.
+.. _h7d7047805a12f41454034755c375870:
 
-\ |IMG7|\ 
+Organizzazione
+==============
 
-Si apre l’interfaccia di modifica della Home page, che è di tipo “Homepage”.  Spostandosi verso il basso, si incontra l’attributo che consente di gestire il menu principale. Da qui è possibile ordinare le voci esistenti (1), cancellare alcune delle voci esistenti (2,3), aggiungere contenuti che diventeranno voci di menù in modalità sfoglia (4) o ricerca (5).
+In questa sezione si consiglia di pubblicare la struttura della propria organizzazione, utilizzando come guida il proprio organigramma.
 
-\ |IMG8|\ 
+In base alle Aree, Servizi e Uffici presenti nell’organigramma, si consiglia di creare, in ordine, le differenti pagine contenitore (utilizzando in questo caso, come pagina contenitore, la classe “Pagina del sito”).
 
-Nel menù vengono aggiunti di fatto dei link a contenuti già esistenti nel sito (e collocati nell’albero dei contenuti). Quindi il testo che compare nel menù è quello relativo ai nomi dei contenuti che sono stati aggiunti.
+.. _h5a635d3d2b1673791192a4f6d6039:
 
+Aree
+----
 
-.. admonition:: Refresh dei menu
+All’interno di questa Pagina del sito si raccomanda di creare oggetti di tipo “\ |STYLE6|\ ” per ogni area presente nell’organigramma. 
 
-    Dopo aver apportato una modifica al menù, o ai contenuti che fanno parte del menù, potrebbe essere necessario effettuare un refresh dei menu per rendere effettive le modifiche. Questa operazione è possibile attraverso la funzione “refresh menù” presente nella barra degli strumenti. 
+Es.: \ |LINK1|\ 
+
+\ |STYLE7|\  
+
+.. _h4206f375449d2593c122327335225:
+
+Servizi
+-------
+
+All’interno di questa pagina si raccomanda di creare oggetti di tipo “\ |STYLE8|\ ” per ogni servizio presente nell’organigramma. L’oggetto Servizio va correlato con un oggetto di tipo Area, se presente.
+
+    Es.: \ |LINK2|\    
+
+.. _h3016382377345a17445517131e5e4515:
+
+Uffici
+------
+
+All’interno di questa pagina si raccomanda di creare oggetti di tipo “\ |STYLE9|\ ” per ogni ufficio presente nell’organigramma. L’oggetto Ufficio va correlato con un oggetto di tipo Servizio.
+
+    Es.: \ |LINK3|\  
 
 .. _h112e363548804723d644a25d2e5020:
 
 Organigramma
-************
+------------
 
-Per gestire un organigramma in un sito basato su Open City è necessario creare un oggetto di tipo “Organigramma”. La visualizzazione è gestita partendo da una serie di oggetti e dalle relazioni che intercorrono tra di loro.
+Una volta creati tutte le Aree, tutti i Servizi e i relativi Uffici avendo cura di specificare le relazioni tra uffici e servizi e tra servizi e aree, si consiglia di creare, proprio all’interno della pagina “Organizzazione”, allo stesso livello quindi delle pagine Aree, Servizi, Uffici, un oggetto di tipo “\ |STYLE10|\ ”.
 
-Tipicamente, nella struttura dei contenuti, sono presenti i seguenti contenitori
+L’oggetto “Organigramma” pescherà automaticamente da tutte le aree, i servizi e gli uffici per creare una rappresentazione grafica di questo tipo:
 
-* Aree: contiene oggetti di tipo “Area”, che rappresentano le aree nelle quali è divisa l’organizzazione dell’ente.
+\ |LINK4|\  
 
-* Servizi: contiene oggetti di tipo “Servizio”, che rappresentano i Servizi operanti all’interno dell’ente.
+.. _h2c1d74277104e41780968148427e:
 
-* Uffici: contiene oggetti di tipo “Ufficio”, che rappresentano gli uffici fisici dell’ente.
 
-Ogni ufficio contiene un riferimento ad un servizio, ed ogni servizio contiene un riferimento ad un area. Attraverso questi riferimenti viene costruito l’albero che compare nell’organigramma.
 
-\ |IMG9|\ 
-
-\ |STYLE24|\ 
-
-Potrebbero esserci casi (enti di piccole dimensioni) in cui non ci siano tre livelli organizzativi, in quel caso l’organigramma può essere generato seguendo i collegamenti tra servizi e uffici.
-
-\ |IMG10|\ 
-
-\ |STYLE25|\ 
-
-Una volta inserite le Aree, I Servizi e gli Uffici, posizionarsi sul nodo dell’Organigramma, aprire le informazioni per l’editor con l’icona “i” in alto a destra sulla barra degli strumenti, e poi premere il pulsante “aggiorna organigramma”:
-
-\ |IMG11|\ 
-
-
-.. admonition:: Suggerimento
-
-    Se la pressione del pulsante “aggiorna organigramma” non dovesse sortire l’effetto desiderato, provare a modificare il contenuto di tipo organigramma (premendo l’icona con la matita sulla barra strumenti) e poi salvare senza apportare modifiche. Una volta usciti dalla modalità di modifica, premere nuovamente il pulsante “aggiorna organigramma”.
-
-.. _h642e1439c702c7635643e1d7545d59:
-
-Pagina del sito e visualizzazione dei figli
-*******************************************
-
-La tipologia di contenuto più generica è la “Pagina del sito”. Viene utilizzata per contenuti generici, non molto strutturati, oppure come contenitore di contenuti. Una volta inseriti i contenuti dentro una pagina del sito, è possibile selezionare il tipo di visualizzazione da applicare ai figli: questo offre diverse possibilità a seconda dello scopo della pagina.
-
-Ad esempio è possibile Creare una pagina del sito per mostrare un elenco di strutture di servizio dislocate sul territorio, strutturando i contenuti come segue:
-
-* Servizi sul territorio [Pagina del sito]
-
-    * Centro educazione ambientale [Punto di interesse]
-
-    * Farmacia XX [Servizio sul territorio]
-
-    * Biblioteca Comunale [Servizio sul territorio]
-
-    * Parafarmacia [Servizio sul territorio]
-
-    * …
-
-La visualizzazione degli oggetti “figli” di una pagina del sito è impostata di default “lista”, ma è possibile scegliere tra diverse altre modalità: modificando la pagina (icona con la matita sulla barra degli strumenti), tra gli attributi della pagina si trova, in fondo, l’attributo “visualizzazione dei figli”
-
-\ |IMG12|\ 
-
-Le scelte possibili sono:
-
-* \ |STYLE26|\  - la visualizzazione a lista;
-
-* \ |STYLE27|\  -  una visualizzazione a tabella con informazioni minime su ogni contenuto;
-
-* \ |STYLE28|\  - sulla destra vengono proposti dei filtri per effettuare delle ricerche sui contenuti (un filtro per ogni tipologia di contenuto) utile in caso di gran numero di contenuti dello stesso tipo;
-
-* \ |STYLE29|\  - i contenuti “figli” vengono mostrati su una mappa (sulla mappa vengono mostrati solo gli oggetti per cui è stata specificata una geolocalizzazione);
-
-* \ |STYLE30|\  - vengono mostrati dei pannelli, uno per contenuto;
-
-* \ |STYLE31|\  - i contenuti vengono mostrati con dei pannelli, ma vicino al titolo viene mostrata una icona.
-
-\ |IMG13|\ 
-
-\ |STYLE32|\ 
-
-.. _h1c7c136469373a66106eff3c436153:
-
-La scelta delle immagini
-========================
-
-Immagini a buona risoluzione
-
-Preferibilmente che si sviluppano in orizzontale 
-
-Attenzione alle licenze
-
-* Concetto di classi di contenuto
-
-* Funzionamento del menu del sito (+ cache menu)
-
-* Funzionamento Website toolbar
-
-* Organigramma
-
-* Pagina del sito e varie viste per i figli
-
-* Frontpage e blocchi principali
-
-* Come pubblicare una news
-
-* Come pubblicare una determina
-
-* Galleria immagini
-
-* Folder virtuale
-
-* Come funziona la colonna di destra
-
-* Creazione ruoli dipendenti con openpa/roles
-
-* Area tematica (esempi?)
-
-* Consigli sugli allegati (file_pdf)
-
-* Scadenze automatiche dei contenuti
-
-* CSVimport
-
-* opendata/console/1
-
-Scadenze automatiche dei contenuti
-
-    con  le sezione e con gli stati
-
-    funzionamento degli allegati (file_pdf) e delle gallerie di immagini
-
-    visualizzazione dei figli
-
-Gestione delle traduzioni
 
 
 .. bottom of content
 
 
-.. |STYLE0| replace:: *content management*
+.. |STYLE0| replace:: **Mostra in visualizzazione tabellare**
 
-.. |STYLE1| replace:: *La barra degli strumenti con le varie funzionalità*
+.. |STYLE1| replace:: **Mostra etichetta**
 
-.. |STYLE2| replace:: **sono contestuali al contenuto visualizzato**
+.. |STYLE2| replace:: **Mostra anche se non popolato:**
 
-.. |STYLE3| replace:: **Modifica di un contenuto esistente;**
+.. |STYLE3| replace:: **Collassa etichetta:**
 
-.. |STYLE4| replace:: **Creazione di un contenuto;**
+.. |STYLE4| replace:: **Mostra link (oggetto correlato):**
 
-.. |STYLE5| replace:: **Aggiunta di una collocazione**
+.. |STYLE5| replace:: **Evidenzia:**
 
-.. |STYLE6| replace:: **Cancellazione di un contenuto:**
+.. |STYLE6| replace:: **Area**
 
-.. |STYLE7| replace:: **Spostamento di un contenuto**
+.. |STYLE7| replace:: *Nel caso in cui nel vostro organigramma NON siano presenti Aree, si prega di saltare questo passaggio.*
 
-.. |STYLE8| replace:: **Ordinare i contenuti:**
+.. |STYLE8| replace:: **Servizio**
 
-.. |STYLE9| replace:: **Caricamento multiplo:**
+.. |STYLE9| replace:: **Ufficio**
 
-.. |STYLE10| replace:: **Refresh menu:**
+.. |STYLE10| replace:: **Organigramma**
 
-.. |STYLE11| replace:: **Copia:**
 
-.. |STYLE12| replace:: **Interfaccia di amministrazione:**
+.. |LINK1| raw:: html
 
-.. |STYLE13| replace:: **Traduci:**
+    <a href="https://vallarsa.upipa.opencontent.it/Azienda/Organizzazione/Aree/Area-Area-socio-sanitaria-e-assistenziale" target="_blank">https://vallarsa.upipa.opencontent.it/Azienda/Organizzazione/Aree/Area-Area-socio-sanitaria-e-assistenziale</a>
 
-.. |STYLE14| replace:: **Informazioni sul contenuto:**
+.. |LINK2| raw:: html
 
-.. |STYLE15| replace:: **navigare verso quel contenuto**
+    <a href="https://vallarsa.upipa.opencontent.it/Azienda/Organizzazione/Servizi/Servizio-medico" target="_blank">https://vallarsa.upipa.opencontent.it/Azienda/Organizzazione/Servizi/Servizio-medico</a>
 
-.. |STYLE16| replace:: **si clicca sull’icona della matita**
+.. |LINK3| raw:: html
 
-.. |STYLE17| replace:: **interfaccia di modifica**
+    <a href="https://vallarsa.upipa.opencontent.it/Azienda/Organizzazione/Uffici/Contabilita-e-bilancio" target="_blank">https://vallarsa.upipa.opencontent.it/Azienda/Organizzazione/Uffici/Contabilita-e-bilancio</a>
 
-.. |STYLE18| replace:: **basata sugli attributi della classe di contenuto**
+.. |LINK4| raw:: html
 
-.. |STYLE19| replace:: *Interfaccia di modifica di un oggetto di tipo*
+    <a href="https://vallarsa.upipa.opencontent.it/Azienda/Organizzazione/Organigramma" target="_blank">https://vallarsa.upipa.opencontent.it/Azienda/Organizzazione/Organigramma</a>
 
-.. |STYLE20| replace:: **Avviso.**
 
-.. |STYLE21| replace:: *Creazione di un nuovo oggetto di tipo*
-
-.. |STYLE22| replace:: **Evento**
-
-.. |STYLE23| replace:: *.*
-
-.. |STYLE24| replace:: *Attraverso la struttura e le relazioni viene generato l’organigramma*
-
-.. |STYLE25| replace:: *Esempio di organigramma a due livelli*
-
-.. |STYLE26| replace:: **Default**
-
-.. |STYLE27| replace:: **Datatable**
-
-.. |STYLE28| replace:: **Filters**
-
-.. |STYLE29| replace:: **Map**
-
-.. |STYLE30| replace:: **Panels**
-
-.. |STYLE31| replace:: **Icons**
-
-.. |STYLE32| replace:: *Il sistema consente diverse tipologie di visualizzazione per gli oggetti contenuti in una pagina*
-
-.. |IMG1| image:: static/Gestione_dei_contenuti_1.png
-   :height: 48 px
+.. |IMG1| image:: static/2_1.png
+   :height: 304 px
    :width: 624 px
 
-.. |IMG2| image:: static/Gestione_dei_contenuti_2.png
-   :height: 49 px
+.. |IMG2| image:: static/2_2.png
+   :height: 258 px
    :width: 624 px
 
-.. |IMG3| image:: static/Gestione_dei_contenuti_3.png
-   :height: 153 px
+.. |IMG3| image:: static/2_3.png
+   :height: 428 px
    :width: 624 px
-
-.. |IMG4| image:: static/Gestione_dei_contenuti_4.png
-   :height: 916 px
-   :width: 550 px
-
-.. |IMG5| image:: static/Gestione_dei_contenuti_5.png
-   :height: 193 px
-   :width: 349 px
-
-.. |IMG6| image:: static/Gestione_dei_contenuti_6.png
-   :height: 134 px
-   :width: 434 px
-
-.. |IMG7| image:: static/Gestione_dei_contenuti_7.png
-   :height: 261 px
-   :width: 624 px
-
-.. |IMG8| image:: static/Gestione_dei_contenuti_8.png
-   :height: 306 px
-   :width: 624 px
-
-.. |IMG9| image:: static/Gestione_dei_contenuti_9.png
-   :height: 257 px
-   :width: 624 px
-
-.. |IMG10| image:: static/Gestione_dei_contenuti_10.png
-   :height: 550 px
-   :width: 376 px
-
-.. |IMG11| image:: static/Gestione_dei_contenuti_11.png
-   :height: 185 px
-   :width: 474 px
-
-.. |IMG12| image:: static/Gestione_dei_contenuti_12.png
-   :height: 102 px
-   :width: 624 px
-
-.. |IMG13| image:: static/Gestione_dei_contenuti_13.png
-   :height: 646 px
-   :width: 552 px

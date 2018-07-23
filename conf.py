@@ -3,13 +3,13 @@
 from __future__ import unicode_literals
 
 # -- PROJECT Variables ----------------------------------------------------
-settings_project_name = "Manuale Open City"
+settings_project_name = "Manuale Upipa Web"
 settings_copyright_copyleft = 'Opencontent'
 settings_editor_name = 'Opencontent'
 settings_doc_version = 'version: latest'
 settings_doc_release = 'version: latest'
-settings_basename = 'manuale-opencity'
-settings_file_name = 'manuale-opencity'
+settings_basename = 'manuale-upipaweb'
+settings_file_name = 'manuale-upipaweb'
 
 import sys, os
 
@@ -37,7 +37,7 @@ __version__ = '1.0'
 
 source_suffix = '.rst'
 master_doc = 'index'
-project = 'Manuale Open City'
+project = 'Manuale Upipa Web'
 copyright = '[licenza CC - BY OpenContent - SA]'
 
 # The version info for the project you're documenting, acts as replacement for

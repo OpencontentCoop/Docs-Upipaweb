@@ -25,9 +25,10 @@ I soci Upipa che aderiscono al progetto hanno accesso a:
 
 .. toctree:: 
 
-    manuale_amministratori.rst
+    gestione_contenuti.rst
 
-    manuale_associazioni.rst
-    
+    albo-online.rst
+
+    amministrazione-trasparente.rst
 
 .. bottom of content

@@ -1,3 +1,3 @@
-# Documentazione OpenCity
+# Documentazione Upipa Web
 
-Questo repository contiene la documentazione relativa a [Open City](https://www.opencontent.it/Per-la-PA/OpenCity).
+Questo repository contiene la documentazione relativa alla piattaforma Upipa Web.

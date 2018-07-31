@@ -717,10 +717,15 @@ Per la seconda sezione si raccomanda di utilizzare la classe: "\ |STYLE53|\ "
 
 Esempio: https://vallarsa.upipa.opencontent.it/Amministrazione-Trasparente/Bilanci/Bilancio-preventivo-e-consuntivo/Bilancio-preventivo
 
+.. _h1f1717501f663f7962d7d3b764363f:
+
+FAQ
+***
+
 .. _h5e2b752b4b14554f372c334d49625e53:
 
 Il mio sito è pronto per essere pubblicato. Quali passaggi seguire?
-*******************************************************************
+===================================================================
 
 Se il sito è pronto per essere messo online si raccomanda innanzitutto di inviare una richiesta all’indirizzo email support@opencontent.it specificando:
 

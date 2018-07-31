@@ -68,10 +68,10 @@ I soci Upipa che aderiscono al progetto hanno accesso a:
 
 
 
-.. _h42492050f7b71b11565635022643f:
+.. _h16285d2d2a3201054466f22745a6b:
 
-Funzionalità da conoscere
-*************************
+Funzionalità principali
+***********************
 
 .. _h2372393a171c4876da3830657d173:
 
@@ -547,7 +547,9 @@ Esempio di colonne visualizzate attraverso il blocco "Atti Albo online"
 
     \ |STYLE44|\ 
     
-    Per individuare gli identificatori di attributo, bisogno collocarsi su un qualsiasi oggetto della classe di contenuto che voglio mostrare. Per esempio, se voglio modificare il blocco "Atti Albo online" che sta mostrando tutti gli oggetti di tipo "Bando di concorso", dovrò collocarmi su un oggetto di tipo "Bando di concorso", cliccare sulla "i" in alto (1) e poi su "Impostazioni visualizzazione oggetto" (2). Apparirà una schermata utile per individuare gli identificatori di attributo. L'identificatore di attributo è infatti il nome che si può trovare tra parentesi, in fianco all'attributo.\ |IMG34|\ Impostazioni visualizzazione oggetti
+    Per individuare gli identificatori di attributo, bisogno collocarsi su un qualsiasi oggetto della classe di contenuto che voglio mostrare. Per esempio, se voglio modificare il blocco "Atti Albo online" che sta mostrando tutti gli oggetti di tipo "Bando di concorso", dovrò collocarmi su un oggetto di tipo "Bando di concorso", cliccare sulla "i" in alto (1) e poi su "Impostazioni visualizzazione oggetto" (2). Apparirà una schermata utile per individuare gli identificatori di attributo. L'identificatore di attributo è infatti il nome che si può trovare tra parentesi, in fianco all'attributo.
+    
+    \ |IMG34|\ Impostazioni visualizzazione oggetti
 
 * \ |STYLE45|\ 
 
@@ -718,7 +720,7 @@ Esempio: https://vallarsa.upipa.opencontent.it/Amministrazione-Trasparente/Bilan
 .. _h5e2b752b4b14554f372c334d49625e53:
 
 Il mio sito è pronto per essere pubblicato. Quali passaggi seguire?
-===================================================================
+*******************************************************************
 
 Se il sito è pronto per essere messo online si raccomanda innanzitutto di inviare una richiesta all’indirizzo email support@opencontent.it specificando:
 
